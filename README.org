@@ -2,7 +2,7 @@
   - Course:   COMP 4432 1,  COMP 3432 1
   - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com
   - Office: 470
-  - Office Hours: After the class T, Th,  12.00 - 1.50 p.m. Email for 1-on-1 help.
+  - Office Hours:  M, Wed,  1.00 - 3 p.m. Email for 1-on-1 help.
 * Prerequisite
 Student should be comfortable with linear algebra, probability, statistics,
 optimization and  programming experience in python and its scientifc libraries. We will cover some basics in the class.
