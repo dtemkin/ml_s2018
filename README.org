@@ -15,7 +15,7 @@ optimization and  programming experience in python and its scientifc libraries. 
 - *Optional:*  [[http://www.deeplearningbook.org/][Deep learning]]  by Ian Goodfellow and Yoshua Bengio and Aaron Courville.   It is available online.
 - *Optional:* For more advance treatment [[https://web.stanford.edu/~hastie/ElemStatLearn/][The Elements of Statistical Learning]]. It is available online in pdf format   
 * Course Description
-Pattern recognition is an exciting area. We will go though theory behind
+We will go though theory behind
 pattern recognition using tool from probability and linear algebra.
 We will use python, its [[https://www.scipy.org/][scientific libraries]] (numpy, scipy, matplotlib, Pandas etc.)
 and [[http://scikit-learn.org/stable/][scikit-learn: Machine Learning in Python]] during the course. For deep neural network part, we will use
