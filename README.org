@@ -1,11 +1,11 @@
 *Pattern Recognition*
-  - Course: 
+  - Course:   COMP 4432 1,  COMP 3432 1
   - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com
-  - Office: 
+  - Office: 470
   - Office Hours: After the class T, Th,  12.00 - 1.50 p.m. Email for 1-on-1 help.
 * Prerequisite
 Student should be comfortable with linear algebra, probability, statistics,
-optimization and  programming experience in python and its scientif libraries. We will cover some basics in the class.
+optimization and  programming experience in python and its scientifc libraries. We will cover some basics in the class.
 -  [[http://cs229.stanford.edu/section/cs229-linalg.pdf][linear algebra overview]] 
 -  Read chapter 2 of Kevin Murphy for probabilty and statistics review or any other text you have used in the past
 * TextBooks
@@ -19,8 +19,7 @@ Pattern recognition is an exciting area. We will go though theory behind
 pattern recognition using tool from probability and linear algebra.
 We will use python, its [[https://www.scipy.org/][scientific libraries]] (numpy, scipy, matplotlib, Pandas etc.)
 and [[http://scikit-learn.org/stable/][scikit-learn: Machine Learning in Python]] during the course. For deep neural network part, we will use
-highly popular [[https://www.tensorflow.org/][tensorflow Machine Intelligence]] library from the Google. For assignments, starter code  or hint will be given.
-One can use other languages and tools as per comfort level. 
+highly popular [[https://www.tensorflow.org/][tensorflow Machine Intelligence]] library from the Google. For assignments, starter code  or hint will be given. 
 At the end of the course one should be able to understand theory behind various
 machine learning algorithms with a unifying perspective from probability theory, be comfortable using open source tools for building machine learning systems.
 
@@ -30,7 +29,7 @@ See the youtube link [[https://www.youtube.com/watch?v=OOFONKvaz0A][Installing A
 You can also go to my  [[https://github.com/psnegi/PythonForReproducibleResearch][python for reproducible research]]  github repository and start by running pythonBasic.ipynb notebook.
 I will go over basic of python and jupyter notebook. For Deep Neural networks, we will go over tensorlfow and keras installation instruction later in the course.
 ** Tensorflow and Keras
-  tensorflow realated information is [[./tensorflow.org][here]]
+  tensorflow related information is [[./tensorflow.org][here]]
 ** Python learning resources
    - [[https://try.jupyter.org/][try python notebook online without installing anything]]
    - [[http://pythontutor.com/live.html#mode%3Dedit][Runs and visualizes your python code]]
@@ -58,7 +57,7 @@ Here are the main topics for the class. More topics can be added as per class in
 * Grading
 There will be one mid term, a final exam, homework assignments, in class quizzes.
 Worst 2 of your homework assignments and 2 quizzes will be dropped. Students enrolled in 
-ENCE 4630 will be asked to do slightly more homework questions.
+ COMP 4432 1,  will be asked to do slightly more homework questions.
 
 
 |-------------------------------------+-------------|
@@ -95,12 +94,10 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 
 * Homework
 Homework numbers are as per *Kevin Murphy ebook from the library*
-| HW |                                                                                                                                                | Due Date | sol |
-|----+------------------------------------------------------------------------------------------------------------------------------------------------+----------+-----|
-|    | This homework is meant to dust off your probability hat.                                                                                       |          |     |
-|  1 | Chapter 2, 2.1(use bayes rule, condition on event actually observed. like in part a say N_b = number of boys, N_b no of girls), 2.3, 2.6, 2.12 |          |     |
-|    | 2.16(look for beta distribution definition and use gamma function definition)                                                                  |          |     |
-|----+------------------------------------------------------------------------------------------------------------------------------------------------+----------+-----|
+| HW |   | Due Date | sol |
+|----+---+----------+-----|
+| 1  |   |          |     |
+|----+---+----------+-----|
   
 * Course announcements
 |--------+--------------------------------------------------------------------------------|
@@ -111,8 +108,8 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 * Course Lectures
 
 
-| Date    | Reading assignment             | uploaded slides |
-|---------+--------------------------------+-----------------|
-| 19 June | Read chapter 1 of Kevin Murphy |                 |
-|---------+--------------------------------+-----------------|
-|         |                                |                 |
+| Date    | Reading assignment                                                                         | uploaded slides |
+|---------+--------------------------------------------------------------------------------------------+-----------------|
+| 19 June | Read chapter 1 of Kevin Murphy and Basic of probabilty from chapter 2 upto 2.4.1 and 2.4.6 |                 |
+|---------+--------------------------------------------------------------------------------------------+-----------------|
+|         |                                                                                            |                 |
