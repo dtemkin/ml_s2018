@@ -1,0 +1,237 @@
+*Pattern Recognition*
+  - Course: ENCE 3630 and ENCE 4630 2017
+  - Instructor: /Pooran Singh Negi, pooran.negi@gmail.com/
+  - Office: 248
+  - Office Hours: After the class T, Th,  3.50- 4.50. Email for 1-on-1 help.
+* TextBooks
+- *Required:*
+  -  [[https://www.cs.ubc.ca/~murphyk/MLbook/][Machine Learning: a Probabilistic Perspective by Kevin Patrick Murphy]]. Online version is available in the [[https://library.du.edu/][DU library]].
+  -  [[http://www-bcf.usc.edu/~gareth/ISL/][An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani]]. It is available online in pdf format
+- *Optional:*  [[http://www.deeplearningbook.org/][Deep learning]]  by Ian Goodfellow and Yoshua Bengio and Aaron Courville.   It is available online.
+- *Optional:* For more advance treatment [[https://web.stanford.edu/~hastie/ElemStatLearn/][The Elements of Statistical Learning]]. It is available online in pdf format   
+* Course Description
+Pattern recognition is an exciting area. We will go though theory behind
+pattern recognition using tool from probability and linear algebra.
+We will use python, its [[https://www.scipy.org/][scientific libraries]] (numpy, scipy, matplotlib etc.)
+and [[http://scikit-learn.org/stable/][scikit-learn: Machine Learning in Python]] during the course. For deep neural network part, we will use
+highly popular [[https://www.tensorflow.org/][tensorflow Machine Intelligence]] library from the Google. For assignments, starter code  or hint will be given.
+One can use other languages and tools as per comfort level. 
+At the end of the course one should be able to understand theory behind various
+machine learning algorithms with a unifying perspective from probability theory, be comfortable using open source tools for building machine learning systems.
+
+* Software
+Please install [[https://www.anaconda.com/download/][Anaconda for Python 2.7 data science platform. ]]Please install it before coming in the class on Tuesday.
+See the youtube link [[https://www.youtube.com/watch?v=OOFONKvaz0A][Installing Anaconda, Jupyter Notebook]]. 
+You can also go to my  [[https://github.com/psnegi/PythonForReproducibleResearch][python for reproducible research]]  github repository and start by running pythonBasic.ipynb notebook.
+I will go over basic of python and jupyter notebook. For Deep Neural networks, we will go over installation instruction later in the course.
+** Python learning resources
+   - [[https://try.jupyter.org/][try python notebook online without installing anything]]
+   - [[http://pythontutor.com/live.html#mode%3Dedit][Runs and visualizes your python code]]
+   - [[https://docs.python.org/3/tutorial/index.html][The Python Tutorial]]  
+* Prerequisite
+Student should be comfortable with linear algebra, probability, statistics,
+optimization and some programming experience. We will cover basics in the class.
+
+* Syllabus
+Here are the main topics for the class. More topics can be added as per class interest and available time.
+- Basic idea of machine learning, and probability
+- Generative models, parametric estimation and supervised learning.
+  - Naive Bayes classifier etc.
+- Gaussian models
+- Linear and logistic regression
+- Support vector machine, Kernels
+- Decision tree.
+- Bagging, boosting and model selection etc.
+- Unsupervised learning
+  - Clustering etc.
+- Deep learning
+  - Artificial Neural Networks(ANN), End to end learning, cost function
+  - Convolutional Neural Networks(CNN) for classification(image) and regression
+  - Recurrent Neural Networks for natural language processing(NLP) and time series data
+* Final Project
+  Click [[./final_project.org][Here]] to see what is expected in final project
+** Datsets for final Projects
+  You can use any dataset you are interested in. Here is some listing of open datasets.
+  - [[https://archive.ics.uci.edu/ml/datasets.html][UC Irvine Machine Learning Repository]]
+  - [[https://www.kaggle.com/datasets][Kaggle Datasets]]  
+* Grading
+There will be one mid term, a final exam, homework assignments, in class quizzes.
+Worst 2 of your homework assignments and 2 quizzes will be dropped. Students enrolled in 
+ENCE 4630 will be asked to do slightly more homework questions.
+
+
+|-------------------------------------+-------------|
+| Homework + Quizzes                  | 30(20+10) % |
+|-------------------------------------+-------------|
+| Midterm exam, 17th October          |         25% |
+|-------------------------------------+-------------|
+| Final exam, 21 Nov                  |         25% |
+|-------------------------------------+-------------|
+| Final Project, Due 23 Nov by 10 p.m |         20% |
+|                                     |             |
+|-------------------------------------+-------------|
+
+* Quiz
+
+|      Quiz | solution |
+|-----------+----------|
+|         1 | [[./hw_sol/qz1.pdf][sol]]      |
+|-----------+----------|
+|         2 | [[./hw_sol/qz2_sol.pdf][sol]]      |
+|-----------+----------|
+| extra 1,2 | [[./hw_sol/extra_qz12.pdf][sol]]      |
+|-----------+----------|
+|         3 | [[./hw_sol/qz3_sol.pdf][sol]]      |
+|-----------+----------|
+|           |          |
+
+* Midterm
+| Midterm | solution           |
+|---------+--------------------|
+|       1 | [[./hw_sol/midterm1_sol.pdf][midterm 1 solution]] |
+|---------+--------------------|
+|         |                    |
+* Homework
+Homework numbers are as per *Kevin Murphy ebook from the library*
+| HW |                                                                                                                                                                          | Due Date                         | sol      |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|    | This homework is meant to dust off your probability hat.                                                                                                                 |                                  |          |
+|  1 | Chapter 2, 2.1(use bayes rule, condition on event actually observed. like in part a say N_b = number of boys, N_b no of girls), 2.3, 2.6, 2.12                           | sep 21                           | [[./hw_sol/HW1_sol.pdf][HW1 sol]]  |
+|    | 2.16(look for beta distribution definition and use gamma function definition)                                                                                            |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  2 | 3.6, 3.7, *3.11(only if enrolled in ENCE 4630)*, 3.20, 4.1(look into section 2.5.1 for definition of correlation coefficient), 4.14                                      | sep 28                           | [[./hw_sol/HW2_sol.pdf][HW2 sol]]  |
+|    |                                                                                                                                                                          |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  3 | 4.21, 4.22, 5.2, 5.3                                                                                                                                                     | oct 5th                          | [[./hw_sol/HW3_sol.pdf][HW 3 sol]] |
+|    | hint 5.3(b)  if r/s ->0 then there in no cost of rejecting.  so  what should be done?                                                                                    |                                  |          |
+|    | For other part analyze the inequality. (it become trivial even for most probable class). What should we do then?                                                         |                                  |          |
+|    |                                                                                                                                                                          |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  4 | jupyter notebook for [[./notebooks/implementing_naive_bayes.ipynb][spam filter]]. answer the questions in the notebook.                                                                                                  | oct 13                           |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  5 | From the book using equation 7.30, 7.31 derive equation 7.32(ridge regression formulation), 7.2(check the formula for W in the book. X transpose is missing), 7.4,  8.3, | oct 13                           | [[./hw_sol/HW5_sol.pdf][HW 5 sol]] |
+|    | 7.9(*only if enrolled in ENCE 4630.* will talk about it in the class for [[./hw_sol/hint_hw4.pdf][hint]]),                                                                                          |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  6 | 1 Finish questions in  [[./lectures/PCA_demo.ipynb][PCA.]] notebook.                                                                                                                                    |                                  |          |
+|    | 2 Do multi class LDA for digits dataset(build S_w, S_b and solve generalized eigen value problem to build projection matrix W) in the PCA notebook at the end            |                                  |          |
+|    | . Also project data and plot first two component as done for first 2 PCA component(see how well FLDA maintains class separation compared to PCA)                         | oct 27(5 p.m)                    |          |
+|    | 3 Do same using sklearn( use from sklearn.discriminant_analysis import LinearDiscriminantAnalysis)                                                                       |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  7 | **Submit following written assignment**                                                                                                                                  |                                  |          |
+|    | 4 Prove the expression for between class scatter matrix(S_B) using equation S_T = S_W + S_B. See class notes for expression of S_T and S_W                               | oct 26(in class)                 |          |
+|    | 5 Prove 1- d Gaussian is from exponential family of distribution.                                                                                                        |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  8 | Click [[./hw_sol/hw_kernel.pdf][here]]  for the homework questions.                                                                                                                                  | nov 2 nd (in class)              | [[./hw_sol/HW7_sol.pdf][HW 7 sol]] |
+|    |                                                                                                                                                                          | (delayed hw will not be graded.) |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|  9 | Here is the [[./notebooks/SVM_implementation.ipynb][notebook]] for instructions                                                                                                                                    | nov 9 by  5 p.m                  |          |
+|    |                                                                                                                                                                          |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+| 10 | Implement soft margin kernel SVM. [[./notebooks/SVM_implementation_softmargin.ipynb][Here]] is the notebook for instructions. Some [[./lectures/svm_soft_margin_notes.pdf][more]] details about soft margin and kernel svm.                                             | nov 13 by 5 p.m                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+| 11 | Implement the non linearity and hidden layer in neural network. [[./notebooks/neural_network_raw.ipynb][Here]] is the notebook for instructions. It is same notebook we used in the class                          | nov 14 by 5 p.m                  |          |
+|    | Use the non linearity sigmod/relu/prelu/elu you like. Search tensorflow documentation                                                                                    |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+| 12 | Implement the non linearity and CNN layer in the neural network. Here is the [[./notebooks/convolutional_network_raw.ipynb][notebook]]  for instructions.                                                                 | nov 17 by 5 p.m                  |          |
+|    |                                                                                                                                                                          |                                  |          |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------|
+|    |                                                                                                                                                                          |                                  |          |
+  
+* Course announcements
+|--------+--------------------------------------------------------------------------------|
+| Date   | Announcement                                                                   |
+|--------+--------------------------------------------------------------------------------|
+| 29 sep | There will be quiz on *3rd oct (Quiz1)* and *5th oct(Quiz2)*                   |
+|        | They will include all the material covered till previous class.                |
+|        |                                                                                |
+|--------+--------------------------------------------------------------------------------|
+| 28 oct | There will be a quiz on 2 nd November based on material covered after midterm  |
+|        | upto 14.5.4                                                                    |
+|--------+--------------------------------------------------------------------------------|
+| 14 nov | closed book quiz about svm and neural network on 14 th nov                     |
+|        |                                                                                |
+|--------+--------------------------------------------------------------------------------|
+|        |                                                                                |
+|--------+--------------------------------------------------------------------------------|
+|--------+--------------------------------------------------------------------------------|
+|        | *Final syllabus*                                                               |
+|        | Final is closed book and notes. Time 21 Nov, 2 p.m. in class.                  |
+|        | Everything we covered in the class is in final(including *CNN, RNN*)           |
+|        | except following.                                                              |
+|        | 1) chapter 9 Generalized linear models and exponential family are not in final |
+|        |                                                                                |
+|        | 2) Feed Forward Neural networks are not in the final.                          |
+|        | 3) Chapter 11 (Mixture model and EM algorithm) are not in final                |
+|        |                                                                                |
+|        |                                                                                |
+
+* Tensorflow
+  tensorflow realated information is [[./tensorflow.org][here]]
+
+* Course Lectures
+
+
+| Date   | Reading assignment                                                                         | uploaded slides                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 12 sep | Read chapter 1 of Kevin Murphy                                                             | [[./lectures/lecture1.pdf][overview of pattern recognition]], [[http://cs229.stanford.edu/section/cs229-linalg.pdf][linear algebra overview]]                                                                                                                 |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 14 sep | section 2.2, 2.3, 2.4[.1, .2, .3, .4, .5, .6], 2.5[.1, .2, .4], 2.6.1, 2.8 of kevin Murphy | overview of probability and information theory from the Murphy book + [[http://cs229.stanford.edu/section/cs229-prob.pdf][Review of Probability Theory]]                                                                       |
+|        |                                                                                            | Here is the link of  jupyter notebook created in the class [[./lectures/intro_notebook.ipynb][jupyter notebook introduction]]                                                                                 |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 19 Sep | chapter 3 of Kevin Murphy                                                                  | [[./lectures/lecture3.pdf][slides]]                                                                                                                                                                   |
+|        |                                                                                            | [ *optional* [[https://metacademy.org/graphs/concepts/bayesian_parameter_estimation#lfocus%3Dbayesian_parameter_estimation][Bayesian parameter estimation]]]                                                                                                                              |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 21 Sep | k. M. book  4.1 upto 4.2.5                                                                 | We covered navie bayes and looked into mutlivariate gaussian(MVG). Modelling class conditional densities                                                                 |
+|        | [optional] ISLR book from    4.4.1 upto 4.4.4.                                             | as  MVN lead to quadratic discriminant analysis(QDA) and linear discriminant analysis (LDA) when covariance matrices are tied i.e. $\Sigma_c = \Sigma$                   |
+|        |                                                                                            | Here is the [[https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-examples][link]] to mechanics of Lagrangian multiplier. For more detail see this link of [[https://metacademy.org/graphs/concepts/lagrange_duality#focus%3Dlagrange_multipliers&mode%3Dlearn][metacademy]]. Go over free section                                                |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 26 Sep | K. M. book 5.7 upto  5.7.2.2                                                               | class [[./lectures/lecture5_scribe.pdf][scribed note]]  [[./lectures/lecture4.pdf][lecture 4 and 5 slides]].  Covered Bayesian decision theory, confusion matrix and ROC(AUC) curve                                                       |
+|        | 7.1- 7.3.3, 7.5.1                                                                          |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 28 Sep |                                                                                            | class [[./lectures/lecture6_final.pdf][scribed note]] . We covered linear model and informally discussed how linear model can model non-linear model. Derived the MLE(least square solution) of parameter W |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 3  |                                                                                            | [[./lectures/lecture7.pdf][class scribed note.]]                                                                                                                                                      |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 5  | 8.1, 8.2, 8.3.1-8.3.3, 8.3.6, 8.3.7                                                        | [[./lectures/lecture8.pdf][class scribed note]]. Covered first discriminative classifier (logistic regression), iterative optimization algorithms                                                     |
+|        |                                                                                            | issue related to choosing step size and using penalizing terms   W^2 or   W on parameter in the objective(cost, loss) function.                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 10 |                                                                                            | [[./lectures/lecture10_oct.pdf][class scribed note.]]  Covered multi classs logistic regression and PCA.                                                                                                   |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 12 | 8.6.3- 8.6.3.2, 9.1 - 9.2.2.3, 9.2.4, 9.3 - 9.3.2                                          | [[./lectures/lecture12_oct.pdf][class scribed notes.]]  talked about LDA for two class. Will upload notes about multi class.                                                                               |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 17 | mid term                                                                                   |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 19 |                                                                                            | [[./lectures/lecture19oct.pdf][class scribed notes.]]  Multi class lda and exponential family and generalized linear model                                                                                |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 24 | ESL book(optional book) 7.1, 7.2, 7.3, 7.10                                                | [[./lectures/lecture24_oct.pdf][class scribed notes.]] Covered model selection and assessment.                                                                                                             |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 26 | K M book chapter 14.1 - 14.5                                                               | [[./lectures/lecture26_oct.pdf][class scribed notes.]] Talked about kernel, mercel kernel and kernel machine to modify features                                                                            |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Oct 31 |                                                                                            | [[./lectures/lecture31_oct.pdf][class scribed notes. kernel PCA and]] Started SVM                                                                                                                          |
+|        |                                                                                            | [[https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/][KNN link]]                                                                                                                                                                 |
+|        |                                                                                            | *optional(requires functional anlaysis background)* [[http://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf][Introduction to RKHS, and some simple kernel algorithms]]  by Arthur Gretton                                           |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nov 2  |                                                                                            | [[./lectures/lecture2_ndnov_scribed.pdf][class scribed notes about soft margin svm]] and                                                                                                                            |
+|        |                                                                                            | [[./lectures/lecture2nd_nov_nueral_network.pdf][notes about neural network movtivation]]                                                                                                                                   |
+|        |                                                                                            | *Optional* [[http://www.robots.ox.ac.uk/~az/lectures/ml/lect3.pdf][svm dual, kernel and regression]] [[http://www.cs.cmu.edu/~guestrin/Class/10701-S07/Slides/kernels.pdf][svm dulaity and kernel trick]]                                                                                                  |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nov 7  |                                                                                            | [[./lectures/lecture_nov7.pdf][class scibed notes.]] covered feedforward neural network and back propagation algorithm. Tensorflow demo for MNIST classification                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nov 9  |                                                                                            | went over [[http://cs231n.stanford.edu/slides/2016/winter1516_lecture7.pdf][these]] CNN slides                                                                                                                                               |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nov 14 |                                                                                            | [[./lectures/rnn_14nov.pdf][class scribed notes]] Went over RNN for handling time series data and improved architecture based on LSTM                                                                  |
+|        |                                                                                            |                                                                                                                                                                          |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nov 17 | Section 16 Adaptive basis function model upto 16.4.3  from Kevin Murphy book               | [[./lectures/lecture_14nov.pdf][note1]] about decision tree                                                                                                                                                |
+|        |                                                                                            | [[./lectures/lecture_17nov.pdf][note2]] about Adaptive basis function model                                                                                                                                |
+|        |                                                                                            | Went over chapter 11 upto 11.4.2.5                                                                                                                                       |
+|--------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        |                                                                                            |                                                                                                                                                                          |
+ 
