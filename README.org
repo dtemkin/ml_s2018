@@ -112,6 +112,8 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 |---------+---------------------------------------------------------------------------------------------+---------------------------|
 | 19 June | Read chapter 1 of Kevin Murphy and Basic of probabilty from chapter 2 upto 2.4.1 and 2.4.6  |                           |
 |         | Detail [[https://www.scipy-lectures.org/][Scipy Lecture Notes]] . Practice 1.3.1 and 1.3.2, 1.4.1 to 1.4.2.8 in Jupyter notebook | [[./lectures/lecture1_19june/ml_motivation.ipynb][what is ml? why we care ?]] |
+|         |                                                                                             | [[lectures/lecture1_19june/numpy_basics.ipynb][python and numpy basics]]   |
+|         |                                                                                             |                           |
 |---------+---------------------------------------------------------------------------------------------+---------------------------|
 |         |                                                                                             |                           |
 |         |                                                                                             |                           |
