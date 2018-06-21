@@ -1,0 +1,36 @@
+* Tensorflow and deep learning resources
+
+We will go over basics of  neural networks in detail in the class.
+** Installing instruction
+  -  you can follow official guide [[https://www.tensorflow.org/install/][Installing TensorFlow]].
+     but for cpu install on you machine try following command from anaconda command prompt
+     - pip install  -U jupyter (optional but will keep you notebook upto date)
+     - *pip install tensorflow         #You will get  CPU support only (no GPU support)* if you are using python 2.7
+     - pip3 install tensorflow         #  (no GPU support) if you are using python 3.n
+
+     - *GPU* This will work if GPU has righ capability and is configured properly. Most probably you have to follow above link on tensorflow site
+       - pip install tensorflow-gpu   Python 2.7;  GPU support
+       - pip3 install tensorflow-gpu  Python 3.n; GPU support   
+         
+We will try that assignments for deep learning using tensorflow can be run with CPU support. You may hear
+that *deep learning truly shine  with GPU capability* but for initial learning, playing with CPU version should be fine.
+
+* Tutorial
+- Go over these [[./tensorflow/tensorflow_overview.ipynb][slides]] to get an idea about what is tensorflow. These slides are prepared from tensorflow [[https://www.tensorflow.org/about/bib][white paper]]
+*if it is not render properly, please download the Figures folder along with this  [[./tensorflow/tensorflow_overview.iynb][notebook]]  to view content in jupyter*
+
+- Go over this [[./tensorflow/tensorflow_examples.ipynb][logistic regression]] to see how logistic regression is implemented in tensorflow.
+
+  *Given that  we have to cover lot of other topics, please go over above material and be prepared to ask any question in the class.*
+
+
+* Optional 
+
+There are lot of resources around the web for learning about deep learning.
+Here are some.
+
+*** Basics and vision related
+- [[https://www.udacity.com/course/deep-learning--ud730][Deep Learning by  Google and udacity]] 
+
+*** Finance
+   - [[https://www.kdnuggets.com/2017/09/top-10-videos-machine-learning-finance.html][Top 10 Videos on Machine Learning in Finance]]
