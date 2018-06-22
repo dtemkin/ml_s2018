@@ -102,8 +102,8 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 | HW | Due Date             |                                                                                                         | sol |
 |----+----------------------+---------------------------------------------------------------------------------------------------------+-----|
 |    |                      |                                                                                                         |     |
-|  1 | 29 June 11.59 p.m    | coding:  [[./hws/hw1_python_numpy_matplotlib.ipynb][python_numpy_matplotlib]]                                                                        |     |
-|    | for coding part      | Problem numbers are from kevin murphy book. *Use DU  library version*.                                  |     |
+|  1 | 29 June 11.59 p.m    | *coding part*:  [[./hws/hw1_python_numpy_matplotlib.ipynb][python_numpy_matplotlib]]                                                                 |     |
+|    | for coding part      | *written part*: Problem numbers are from kevin murphy book. *Use DU  library version*.                  |     |
 |    | and 28 June in class | submit written solution: Chapter 2, 2.1(use bayes rule, condition on event actually observed.           |     |
 |    | for written part     | like in part a say N_b = number of boys, N_b no of girls) (4 = 2+2 point), 2.3 (2 point), 2.4(2 point), |     |
 |    |                      | 2.6(6 = 3+3 point), 2.12(2 point), 2.16(3= 1+1+1 points)                                                |     |
