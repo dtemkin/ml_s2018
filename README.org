@@ -1,8 +1,8 @@
-*Pattern Recognition*
+*Machine Learning*
   - Course:   COMP 4432 1,  COMP 3432 1, 410
-  - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com, **(TA: Aiman Gannous (Aiman.Gannous@du.edu), Office 126)**
-  - Office: 470
-  - Office Hours:  M, Wed,  1.00 - 3 p.m. Email for 1-on-1 help.
+  - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com office 470, Office Hours:  M, Wed,  1.00 - 3 p.m. Email for 1-on-1 help.
+  - (TA: Aiman Gannous (Aiman.Gannous@du.edu), Office 126)
+ 
 * Prerequisite
 Student should be comfortable with linear algebra, probability, statistics,
 optimization and  programming experience in python and its scientifc libraries. We will cover some basics in the class.
