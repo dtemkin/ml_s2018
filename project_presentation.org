@@ -1,7 +1,7 @@
 * Final Project presentation
 
 10 -12  slide presentation must contain following sections.*
-*Please present  final project presentation(15 minutes)*
+*Please present  final project presentation within 10 minutes*
 
 ** Dataset and motivation slide (2 points)
   How/why  dataset was collected and describe the meta data of your dataset. 
