@@ -7,7 +7,7 @@
   How/why  dataset was collected and describe the meta data of your dataset. 
 
 ** Questions (2 points)
-  What real world problem you trying to solve. *What is input and output of your analysis.*
+  What real world problem you are trying to solve. *What is input and output of your analysis.*
 
 **  Data munging and statistical summary (4 points, 2 points each)
  - Anything unusual you have to face in this data cleaning activity. Please share.
@@ -19,7 +19,7 @@
 
 ** Modelling activity/evaluation/conclusion(2  points each, 6 total) 
   - What motivated you to use this model.
-  - How you slected the right model.
+  - How you selected the right model.
   - What is current evaluation or finding of the project. 
 
 
