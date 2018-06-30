@@ -105,21 +105,21 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 
 * Homework
 Homework numbers are as per *Kevin Murphy ebook from the library*
-| HW | Due Date           |                                                                                                         | sol |
-|----+--------------------+---------------------------------------------------------------------------------------------------------+-----|
-|    |                    |                                                                                                         |     |
-| 1a | 29 June 11.59 p.m  | *coding part*:  [[file:hws/hw1_python_numpy_matplotlib.ipynb][python_numpy_matplotlib]]                                                                 |     |
-|----+--------------------+---------------------------------------------------------------------------------------------------------+-----|
-| 1b |                    | *written part*: Problem numbers are from kevin murphy book. *Use DU  library version*.                  |     |
-|    | 28 June in class   | submit written solution: Chapter 2, 2.1(use bayes rule, condition on event actually observed.           |     |
-|    |                    | like in part a say N_b = number of boys, N_g no of girls) (4 = 2+2 point), 2.3 (2 point), 2.4(1 point), |     |
-|    |                    | 2.6(6 = 3+3 point), 2.12(2 point), 2.16(3= 1+1+1 points)                                                |     |
-|    |                    | *Look for chapter 2 for definitions and explain various steps in the work*                              |     |
-|----+--------------------+---------------------------------------------------------------------------------------------------------+-----|
-| 2a | 5 th July in class | Chpater 2,    2.13 (2 point)                                                                            |     |
-|    |                    | chapter 3,    3.6 (4 point), 3.7(2 point each), 3.11(2 point each), 3.20(3 point each),                 |     |
-|----+--------------------+---------------------------------------------------------------------------------------------------------+-----|
-|    |                    |                                                                                                         |     |
+|                                                                                                         | HW | Due Date           | sol |
+|---------------------------------------------------------------------------------------------------------+----+--------------------+-----|
+|                                                                                                         |    |                    |     |
+| *coding part*:  [[file:hws/hw1_python_numpy_matplotlib.ipynb][python_numpy_matplotlib]]                                                                 | 1a | 29 June 11.59 p.m  |     |
+|---------------------------------------------------------------------------------------------------------+----+--------------------+-----|
+| *written part*: Problem numbers are from kevin murphy book. *Use DU  library version*.                  | 1b |                    |     |
+| submit written solution: Chapter 2, 2.1(use bayes rule, condition on event actually observed.           |    | 28 June in class   |     |
+| like in part a say N_b = number of boys, N_g no of girls) (4 = 2+2 point), 2.3 (2 point), 2.4(1 point), |    |                    |     |
+| 2.6(6 = 3+3 point), 2.12(2 point), 2.16(3= 1+1+1 points)                                                |    |                    |     |
+| *Look for chapter 2 for definitions and explain various steps in the work*                              |    |                    |     |
+|---------------------------------------------------------------------------------------------------------+----+--------------------+-----|
+| Chpater 2,    2.13 (3 point)                                                                            | 2a | 5 th July in class |     |
+| chapter 3,    3.6 (4 point), 3.7(2 point each), 3.11(1 point each), 3.20(1 point each),                 |    |                    |     |
+|---------------------------------------------------------------------------------------------------------+----+--------------------+-----|
+|                                                                                                         |    |                    |     |
 
 * Course announcements
 |--------+--------------------------------------------------------------------------------|
