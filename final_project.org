@@ -3,6 +3,9 @@
 I have listed some databases for the final project. You can use or collect your own dataset for the final project requirements.
 You can work in a group of at most 2 people.
 
+Make sure you project is not too small and not too large. I'll let you know if it is a small problem and you need to change it.
+Problems we are doing in homework assignments are small scale.
+
 Final Project requires submission of Jupyter notebook with code, graph and
 output in the notebook. 
 
@@ -13,8 +16,6 @@ Here is the grading Rubric
 
 ** Task definition (4 points) 
 What real world problem you tried to solved. *What is input and output of your system.*
-Make sure you project is not too small and not too large. Problems we are doing in homework assignments
-are small scale.
 *I have provided some link in the website for possible places to look for datasets.*
 *you are free to do web scrapping if desired datasets is not there.*
 
