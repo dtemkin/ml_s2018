@@ -28,7 +28,6 @@ are small scale.
 - How did you find the model of right complexity(*Model Selection*)
 - How are you going to finally evaluate your project and metrics involved.(*Model assessment*)
 
-*Above two task are the most important thing in machine learning/data science.*
 
 ** You Approach against others (2 points) 
 How are you planning to solve the problem different then others.
@@ -36,7 +35,7 @@ Please mention  at least 2 most important literature review you did for this and
 
 ** Some baseline methods result (2 points) 
 You can use any algorithm from sklearn etc. to solve the problem to get an idea of baseline performance.
-Report the baseline method metri/performancec.
+Report the baseline method metric/performance.
 
 ** Your results and conclusion (4 points) 
    How well you method/algorithm did against others. Please report final metrics and error/accuracy analysis here.
