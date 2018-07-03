@@ -120,7 +120,7 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 | 2a | Chpater 2,    2.13 (3 point)                                                                            | 5 th July in class |     |
 |    | chapter 3,    3.6 (4 point), 3.7(2 point each), 3.11(1 point each), 3.20(1 point each),                 |                    |     |
 |----+---------------------------------------------------------------------------------------------------------+--------------------+-----|
-|    |                                                                                                         |                    |     |
+| 2b | [[./hws/implementing_naive_bayes.ipynb][implementing naive bayes ham or spam for sms]]                                                            | 9 th July online   |     |
 
 * Course announcements
 |--------+--------------------------------------------------------------------------------|
