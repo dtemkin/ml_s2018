@@ -1,0 +1,49 @@
+* Final Project
+
+I have listed some databases for the final project. You can use or collect your own dataset for the final project requirements.
+You can work in a group of at most 2 people.
+
+Make sure you project is not too small and not too large. I'll let you know if it is a small problem and you need to change it.
+Problems we are doing in homework assignments are small scale.
+
+Final Project requires submission of Jupyter notebook with code, graph and
+output in the notebook. 
+
+*Apart from the source code, notebook must contain following sections.*
+*Note: If you dataset is big enough you can subsample it so that you can run the code in reasonable time*
+
+Here is the grading Rubric
+
+** Task definition (4 points) 
+What real world problem you tried to solved. *What is input and output of your system.*
+*I have provided some link in the website for possible places to look for datasets.*
+*you are free to do web scrapping if desired datasets is not there.*
+
+** Tools and infrastructure. (2 points) 
+- What tools, libraries and language you used.
+- What kind of pre processing, cleaning, imputation you did in the data and why?
+
+*Please try to prepare and load the data and see what kind of difficulties you are facing.*
+
+** Evaluation metric (3+3 = 6 points) 
+- How did you find the model of right complexity(*Model Selection*)
+- How are you going to finally evaluate your project and metrics involved.(*Model assessment*)
+
+
+** You Approach against others (2 points) 
+How are you planning to solve the problem different then others.
+Please mention  at least 2 most important literature review you did for this and what others have achieved.
+
+** Some baseline methods result (2 points) 
+You can use any algorithm from sklearn etc. to solve the problem to get an idea of baseline performance.
+Report the baseline method metric/performance.
+
+** Your results and conclusion (4 points) 
+   How well you method/algorithm did against others. Please report final metrics and error/accuracy analysis here.
+
+
+
+
+
+
+

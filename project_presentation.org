@@ -1,0 +1,28 @@
+* Final Project presentation
+
+10 -12  slide presentation must contain following sections.*
+*Please present  final project presentation within 10 minutes*
+
+** Dataset and motivation slide (2 points)
+  How/why  dataset was collected and describe the meta data of your dataset. 
+
+** Questions (2 points)
+  What real world problem you are trying to solve. *What is input and output of your analysis.*
+
+**  Data munging and statistical summary (4 points, 2 points each)
+ - Anything unusual you have to face in this data cleaning activity. Please share.
+ - Data summary statistics and interpretation.
+
+**  Visualization (4 points, 2 points each)
+  - Visualization activity(box plot, bar plot  etc. to see relationship and distribution etc).
+  - Describe  visualization and how it helped you.
+
+** Modelling activity/evaluation/conclusion(2  points each, 6 total) 
+  - What motivated you to use this model.
+  - How you selected the right model.
+  - What is current evaluation or finding of the project. 
+
+
+
+
+  

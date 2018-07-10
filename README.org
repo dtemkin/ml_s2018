@@ -1,8 +1,8 @@
-*Pattern Recognition*
+*Machine Learning*
   - Course:   COMP 4432 1,  COMP 3432 1, 410
-  - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com, TA: Aiman Gannous (Aiman.Gannous@du.edu)
-  - Office: 470
-  - Office Hours:  M, Wed,  1.00 - 3 p.m. Email for 1-on-1 help.
+  - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com office 470, Office Hours:  M, Wed,  1.00 - 3 p.m. Email for 1-on-1 help.
+  - (TA: Aiman Gannous (Aiman.Gannous@du.edu), Office 126)
+ 
 * Prerequisite
 Student should be comfortable with linear algebra, probability, statistics,
 optimization and  programming experience in python and its scientifc libraries. We will cover some basics in the class.
@@ -81,7 +81,8 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 
 *Please respect DU [[https://www.du.edu/studentlife/studentconduct/honorcode.html][Honor Yourself, Honor the Code]]*
 
-* Final Project
+* Final Project and presentation
+  Click [[./project_presentation.org][project presentation]] to see what is  expected in the presentation.
   Click [[./final_project.org][Here]] to see what is expected in final project
 ** Datsets for final Projects
   You can use any dataset you are interested in. Here is some listing of open datasets.
@@ -105,17 +106,32 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 
 * Homework
 Homework numbers are as per *Kevin Murphy ebook from the library*
-| HW | Due Date          |                                                                                                         | sol |
-|----+-------------------+---------------------------------------------------------------------------------------------------------+-----|
-|    |                   |                                                                                                         |     |
-| 1a | 29 June 11.59 p.m | *coding part*:  [[file:hws/hw1_python_numpy_matplotlib.ipynb][python_numpy_matplotlib]]                                                                 |     |
-|----+-------------------+---------------------------------------------------------------------------------------------------------+-----|
-| 1b |                   | *written part*: Problem numbers are from kevin murphy book. *Use DU  library version*.                  |     |
-|    | 28 June in class  | submit written solution: Chapter 2, 2.1(use bayes rule, condition on event actually observed.           |     |
-|    |                   | like in part a say N_b = number of boys, N_g no of girls) (4 = 2+2 point), 2.3 (2 point), 2.4(1 point), |     |
-|    |                   | 2.6(6 = 3+3 point), 2.12(2 point), 2.16(3= 1+1+1 points)                                                |     |
-|    |                   | *Look for chapter 2 for definitions and explain various steps in the work*                              |     |
-|----+-------------------+---------------------------------------------------------------------------------------------------------+-----|
+| HW |    |                                                                                                                                                                                                                                                                                                                                               | Due date                         | sol |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|    |    |                                                                                                                                                                                                                                                                                                                                               |                                  |     |   |
+|  1 | 1a | *coding part*:  [[file:hws/hw1_python_numpy_matplotlib.ipynb][python_numpy_matplotlib]]                                                                                                                                                                                                                                                                                                       | 29 June 11.59 p.m                | [[./hws/hw1_python_numpy_matplotlib_solutions.ipynb][sol]] |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|    | 1b | *written part*: Problem numbers are from kevin murphy book. *Use DU  library version*.                                                                                                                                                                                                                                                        |                                  |     |   |
+|  1 |    | submit written solution: Chapter 2, 2.1(use bayes rule, condition on event actually observed.                                                                                                                                                                                                                                                 | 28 June in class                 | [[./hws/HW1_sol.pdf][sol]] |   |
+|    |    | like in part a say N_b = number of boys, N_g no of girls) (4 = 2+2 point), 2.3 (2 point), 2.4(1 point),                                                                                                                                                                                                                                       |                                  |     |   |
+|    |    | 2.6(6 = 3+3 point), 2.12(2 point), 2.16(3= 1+1+1 points)                                                                                                                                                                                                                                                                                      |                                  |     |   |
+|    |    | *Look for chapter 2 for definitions and explain various steps in the work*                                                                                                                                                                                                                                                                    |                                  |     |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|  2 | 2a | Chpater 2,    2.13 (3 point, hint: I(X,Y) = H(X) + H(Y) - H(X,Y))                                                                                                                                                                                                                                                                             | 6 th July at 3 p.m in office 470 |     |   |
+|    |    | chapter 3,    3.6 (4 point), 3.7(2 point each), 3.11(1 point each), 3.20(1 point each),                                                                                                                                                                                                                                                       |                                  |     |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|  2 | 2b | [[./hws/implementing_naive_bayes.ipynb][implementing naive bayes ham or spam for sms]]                                                                                                                                                                                                                                                                                                  | 9 th July online                 |     |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|    |    |                                                                                                                                                                                                                                                                                                                                               |                                  |     |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|    |    |                                                                                                                                                                                                                                                                                                                                               |                                  |     |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|    |    | Q1 (6 point)- Prove that If $\Sigma_c$ (covariance matrix for class c) is diagonal, than Gaussian discriminant analysis is equivalent to naive Bayes                                                                                                                                                                                          |                                  |     |   |
+|  3 |    | Q2 (4 point)- Using equation 4.43( $x^{T} (\beta_{c} - \beta_{c'} ) =\gamma_{c} -\gamma_{c'})$) from the book, show that decision boundary is perpendicular to the line connecting two mean $\mu_c$ and $\mu_c'$ in Linear discriminant analysis (LDA). Hint: Note that two vector X, Y are perpendicular if their dot product $X^{T} Y$ is 0 |                                  |     |   |
+|    |    | - From the book 4.1 (2 point )(look into section 2.5.1 for definition of correlation coefficient), 4.14(4 point 1+1+1+1 point each)                                                                                                                                                                                                           |                                  |     |   |
+|    |    | 4.21(4 = 2 + 2 point ), 4.22(2 = 1+1 point),                                                                                                                                                                                                                                                                                                  | 12 th July in class at 1.50 p.m  |     |   |
+|----+----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----+---|
+|    |    |                                                                                                                                                                                                                                                                                                                                               |                                  |     |   |
 
 * Course announcements
 |--------+--------------------------------------------------------------------------------|
@@ -126,15 +142,29 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 * Course Lectures
 
 
-| Date    | Reading assignment                                                                          | uploaded slides/notebooks       |
-|---------+---------------------------------------------------------------------------------------------+---------------------------------|
-| 19 June | Read chapter 1 of Kevin Murphy and Basic of probabilty from chapter 2 upto 2.4.1 and 2.4.6  |                                 |
-|         | Detail [[https://www.scipy-lectures.org/][Scipy Lecture Notes]] . Practice 1.3.1 and 1.3.2, 1.4.1 to 1.4.2.8 in Jupyter notebook | [[./lectures/lecture1_19june/ml_motivation.ipynb][what is ml? why we care ?]]       |
-|         |                                                                                             | [[lectures/lecture1_19june/numpy_basics.ipynb][python and numpy basics]]         |
-|         |                                                                                             |                                 |
-|---------+---------------------------------------------------------------------------------------------+---------------------------------|
-| 21 June | section 2.2, 2.3, 2.4[.1, .2, .3, .4, .5, .6], 2.5[.1, .2, .4], 2.6.1, 2.8 of kevin Murphy  | [[lectures/lecture2_21june/Generative_model.ipynb][notebook generative model]]       |
-|         | 3.1-3.2.4                                                                                   |                                 |
-|---------+---------------------------------------------------------------------------------------------+---------------------------------|
-| 26 June |                                                                                             | [[./lectures/lecture3_25june/note_probabilyt_and_information_theory.ipynb][information theory, mle and map]] |
-|         |                                                                                             |                                 |
+| Date     | Reading assignment                                                                          | uploaded slides/notebooks                                                           |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+| 19 June  | Read chapter 1 of Kevin Murphy and Basic of probabilty from chapter 2 upto 2.4.1 and 2.4.6  |                                                                                     |
+|          | Detail [[https://www.scipy-lectures.org/][Scipy Lecture Notes]] . Practice 1.3.1 and 1.3.2, 1.4.1 to 1.4.2.8 in Jupyter notebook | [[./lectures/lecture1_19june/ml_motivation.ipynb][what is ml? why we care ?]]                                                           |
+|          |                                                                                             | [[lectures/lecture1_19june/numpy_basics.ipynb][python and numpy basics]]                                                             |
+|          |                                                                                             |                                                                                     |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+| 21 June  | section 2.2, 2.3, 2.4[.1, .2, .3, .4, .5, .6], 2.5[.1, .2, .4], 2.6.1, 2.8 of kevin Murphy  | [[lectures/lecture2_21june/Generative_model.ipynb][notebook generative model]]                                                           |
+|          | 3.1-3.2.4                                                                                   |                                                                                     |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+| 26 June  | Rest of chapter 3                                                                           | [[./lectures/lecture3_25june/note_probabilyt_and_information_theory.ipynb][information theory, mle and map]]                                                     |
+|          |                                                                                             | Here is the [[https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-examples][link]] to mechanics of Lagrangian multiplier. For more detail see         |
+|          |                                                                                             | this link at [[https://metacademy.org/graphs/concepts/lagrange_duality#focus%253Dlagrange_multipliers&mode%253Dlearn][metacademy]]. Go over free section                                       |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+| 28 June  | NBC Naive Bayes classifiers                                                                 |                                                                                     |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+| 3 July   | k. M. book 4.1 upto 4.2.5                                                                   | [[./lectures/lecture5_3july/MVN_demo.ipynb][MVN demo notebook]] ,                                                                 |
+|          |                                                                                             | We covered navie bayes and looked into mutlivariate gaussian(MVG).                  |
+|          |                                                                                             | Modelling class conditional densities.                                              |
+|          |                                                                                             | How MVN lead to quadratic discriminant analysis(QDA) and                            |
+|          |                                                                                             | linear discriminant analysis (LDA) when covariance matrices are tied i.e. $Σ_c = Σ$ |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+| 5th July | K. M. book 5.7 upto 5.7.2.2                                                                 | MVN in detail, started Bayesian decision theory                                     |
+|          |                                                                                             |                                                                                     |
+|----------+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------|
+|          |                                                                                             |                                                                                     |
