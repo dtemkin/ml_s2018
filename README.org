@@ -2,7 +2,9 @@
   - Course:   COMP 4432 1,  COMP 3432 1, 410
   - Instructor: [[https://sites.google.com/site/poorannegi/][Pooran Singh Negi]], pooran.negi@gmail.com office 470, *Office Hours*:  M, Wed,  1.00 - 3 p.m. Email for 1-on-1 help.
   - (TA: Aiman Gannous (Aiman.Gannous@du.edu), Office 126, *office hours* Wednesday 5:30 – 6:30 PM)
-    
+
+*Credit:* Content on this page contain links to various external resources and images form Kevin Murhopy book  [[https://www.cs.ubc.ca/~murphyk/MLbook/][Machine Learning: a Probabilistic Perspective by Kevin Patrick Murphy]].
+
 * Prerequisite
 Student should be comfortable with linear algebra, probability, statistics,
 optimization and  programming experience in python and its scientifc libraries. We will cover some basics in the class.
@@ -34,6 +36,12 @@ I will go over basic of python and jupyter notebook. For Deep Neural networks, w
 *** Try tensorflow using google colab
     - https://colab.research.google.com/notebooks/welcome.ipynb
 
+***  deep learning resources
+ - [[https://github.com/aymericdamien/TensorFlow-Examples][TensorFlow Tutorial and Examples for Beginners with Latest APIs]] by Aymeric Damien
+ - [[https://github.com/fchollet/keras-resources][Keras resources]]
+ - [[https://github.com/kjw0612/awesome-deep-vision][Awesome Deep Vision]]
+ - [[https://github.com/kjw0612/awesome-rnn][Awesome Recurrent Neural Networks]]
+   
 ** Python learning resources
    - [[https://try.jupyter.org/][try python notebook online without installing anything]]
    - [[http://pythontutor.com/live.html#mode%3Dedit][Runs and visualizes your python code]]
@@ -135,7 +143,7 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 |    |            |                                                                                                                                                                                                                                      |                                  |     |
 |----+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----|
 |  3 | 3 written  | Q1 (6 point)- Prove that If $\Sigma_c$ (covariance matrix for class c) is diagonal, then Gaussian discriminant analysis is equivalent to naive Bayes                                                                                 |                                  |     |
-|    |            | Q2 (4 point)-                                                                                                                                                                                                                        |                                  |     |
+|    |            | Q2 (4 point)-                                                                                                                                                                                                                        |                                  | [[./hws/HW3_sol.pdf][sol]] |
 |    |            | - From the book 4.1 (2 point )(look into section 2.5.1 for definition of correlation coefficient), 4.14(4 point 1+1+1+1 point each)                                                                                                  |                                  |     |
 |    |            | 4.21(4 = 2 + 2 point ), 4.22(2 = 1+1 point),                                                                                                                                                                                         | 12 th July in class at 1.50 p.m  |     |
 |----+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----|
@@ -191,7 +199,10 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 | 12 July  | 7.1- 7.3.3, 7.5.1                                                                           | We covered linear model and informally discussed how linear model can model non-linear model. Derived the MLE(least square solution) of parameter W |
 |          | 8.1, 8.2, 8.3.1-8.3.3                                                                       | Please look into one drive link for class scribed notes.                                                                                            |
 |----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 17 July  | 8.3.6, 8.3.7, 8.6.3- 8.6.3.2                                                                |                                                                                                                                                     |
+| 17 July  | 8.3.6, 8.3.7, 8.6.3- 8.6.3.2                                                                | Covered geomtry of ridge regression($\ell_2$ regularization) and lasso($\ell_1$). First discriminative classifier (logistic regression)             |
+|          |                                                                                             | [[http://www.sci.utah.edu/~gerig/CS6640-F2012/Materials/pseudoinverse-cis61009sl10.pdf][More information about Pseudo-Inverses]]                                                                                                              |
+|----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|          | 12.2                                                                                        | Will cover Multi-class logistic regression, and principle component analysis (PCA) for dimentionality reduction.                                    |
 |          |                                                                                             |                                                                                                                                                     |
 |----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
 |          |                                                                                             |                                                                                                                                                     |
