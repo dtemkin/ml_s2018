@@ -115,10 +115,11 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 |      |            |
   
 * Midterm
-| Midterm | solution |
-|---------+----------|
-|       1 |          |
-|---------+----------|
+| Midterm          | solution |
+|------------------+----------|
+| [[./hws/midterm1.pdf][practice midterm]] | [[./hws/midterm1_sol.pdf][solution]] |
+|                  |          |
+|------------------+----------|
 
 * Homework
 Homework numbers are as per *Kevin Murphy ebook from the library*
@@ -163,6 +164,8 @@ Homework numbers are as per *Kevin Murphy ebook from the library*
 |---------+-----------------------------------|
 | 7-14-18 | quiz 2 is scheduled on 19 th July |
 |         |                                   |
+|---------+-----------------------------------|
+| 7-24-18 | midterm                           |
 
 * Course Lectures
 
