@@ -33,6 +33,7 @@ I will go over basic of python and jupyter notebook. For Deep Neural networks, w
 ** Tensorflow and Keras
  -  tensorflow related information is [[./tensorflow.org][here]]
  -  Keras related information is [[https://keras.io/][here]]
+    + [[https://blog.keras.io/][The Keras Blog]]
 *** Try tensorflow using google colab
     - https://colab.research.google.com/notebooks/welcome.ipynb
 
