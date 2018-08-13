@@ -25,7 +25,7 @@ What real world problem you tried to solved. *What is input and output of your s
 
 *Please try to prepare and load the data and see what kind of difficulties you are facing.*
 
-** Evaluation metric (3+3 = 6 points) 
+** Evaluation metric (2+2 = 4 points) 
 - How did you find the model of right complexity(*Model Selection*)
 - How are you going to finally evaluate your project and metrics involved.(*Model assessment*)
 
@@ -38,9 +38,9 @@ Please mention  at least 2 most important literature review you did for this and
 You can use any algorithm from sklearn etc. to solve the problem to get an idea of baseline performance.
 Report the baseline method metric/performance.
 
-** Your results and conclusion (4 points) 
+** Your results and conclusion (2 points) 
    How well you method/algorithm did against others. Please report final metrics and error/accuracy analysis here.
-
+** reproducibility of the results via code. ( 4 points)
 
 
 
