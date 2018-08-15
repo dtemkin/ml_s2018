@@ -129,7 +129,7 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 | Syllabus is only upto multiclass logistic regression, PCA is not included |          |
 |                                                                           |          |
 |---------------------------------------------------------------------------+----------|
-| midterm 24 th July in class                                               | [[./hws/midterm_class_sol.pdf][solution]] |
+| midterm 24 th July in class   [[./hws/midterm_class.pdf][midterm]]                                     | [[./hws/midterm_class_sol.pdf][solution]] |
 |                                                                           |          |
 
 * Homework
