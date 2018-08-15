@@ -119,6 +119,7 @@ grade range [('A', >=95), ('A_minus', >=90), ('B_plus', >=85), ('B', >=80), ('B_
 |    3 | [[./hws/qz3_sol.pdf][quiz 3 sol]] |
 |      |            |
 |------+------------|
+|    4 | [[./hws/quiz4_14aug.pdf][quiz 4 sol]] |
 |      |            |
 
 
